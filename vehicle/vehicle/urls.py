@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
+from rest_framework_simplejwt import views as jwt_views
 from car import views as car_views
 from truck import views as truck_views
 from boat import views as boat_views
@@ -26,6 +27,8 @@ router.register(r'cars', car_views.Car_Viewset)
 router.register(r'trucks', truck_views.Truck_Viewset)
 
 urlpatterns = [
+    path('api/token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
 ]

@@ -18,8 +18,10 @@ from django.urls import path, include
 from rest_framework import routers
 from car import views as car_views
 from truck import views as truck_views
+from boat import views as boat_views
 
 router = routers.DefaultRouter()
+router.register(r'boats', boat_views.Boat_Viewset)
 router.register(r'cars', car_views.Car_Viewset)
 router.register(r'trucks', truck_views.Truck_Viewset)
 

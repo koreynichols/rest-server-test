@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'car',
     'truck',
+    'boat',
     'rest_framework'
 ]
 

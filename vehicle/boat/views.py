@@ -6,4 +6,4 @@ from rest_framework.permissions import IsAuthenticated
 class Boat_Viewset(viewsets.ModelViewSet):
     queryset = Boat.objects.all()
     serializer_class = Boat_Serializer
-        permission_classes = (IsAuthenticated, )
+    permission_classes = (IsAuthenticated, )

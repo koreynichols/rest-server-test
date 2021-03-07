@@ -1,0 +1,1 @@
+web: cd vehicle && python manage.py migrate && gunicorn vehicle.wsgi

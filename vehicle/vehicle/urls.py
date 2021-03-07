@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from car import views as car_views
+from truck import views as truck_views
 
 router = routers.DefaultRouter()
 router.register(r'cars', car_views.Car_Viewset)
+router.register(r'trucks', truck_views.Truck_Viewset)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

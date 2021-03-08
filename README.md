@@ -4,7 +4,7 @@ Django backend hosted on Heroku: https://korey-django-vehicle-test.herokuapp.com
 
 Test using postman:
 
-1. Obtain auth token
+###1. Obtain auth token
 
 To get auth token you can use a POST request to https://korey-django-vehicle-test.herokuapp.com/api/token/
 
@@ -19,7 +19,7 @@ The result will give you 2 tokens. We will be using the access token
 ![Screenshot 2021-03-07 235323](https://user-images.githubusercontent.com/26910936/110293545-8f916780-7fa3-11eb-9ecb-c74700e87cd4.png)
 
 
-2. Testing the api routes
+###2. Testing the api routes
 
 In this we will go through a few of the api calls avaliable with the cars resource.
 

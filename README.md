@@ -2,11 +2,11 @@
 
 Django backend hosted on Heroku: https://korey-django-vehicle-test.herokuapp.com/
 
-Test using postman:
+## Test using postman:
 
 ### 1. Obtain auth token
 
-To get auth token you can use a POST request to https://korey-django-vehicle-test.herokuapp.com/api/token/
+To get auth token we will use a POST request to https://korey-django-vehicle-test.herokuapp.com/api/token/ and sending the username and password
 
 username: admin
 
@@ -14,7 +14,7 @@ password: admin
 
 ![Screenshot 2021-03-07 235242](https://user-images.githubusercontent.com/26910936/110293362-52c57080-7fa3-11eb-8dfb-0a8c28ffccbb.png)
 
-The result will give you 2 tokens. We will be using the access token
+The result will give us 2 tokens. We will be using the access token
 
 ![Screenshot 2021-03-07 235323](https://user-images.githubusercontent.com/26910936/110293545-8f916780-7fa3-11eb-9ecb-c74700e87cd4.png)
 

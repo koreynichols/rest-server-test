@@ -21,12 +21,12 @@ The result will give you 2 tokens. We will be using the access token
 
 2. Testing the api routes
 
-In this we will go through a few of the api calls avaliable with the cars resource./
-/cars GET/
-/cars/:id GET/
-/cars POST/
-/cars/:id PUT/
-/cars/:id DELETE/
+In this we will go through a few of the api calls avaliable with the cars resource.\
+/cars GET\
+/cars/:id GET\
+/cars POST\
+/cars/:id PUT\
+/cars/:id DELETE\
 All of these can be appended to the end of https://korey-django-vehicle-test.herokuapp.com
 They will all need the access token that we got in step 1.
 

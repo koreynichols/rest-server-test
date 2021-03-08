@@ -52,7 +52,7 @@ color - string\
 vin - string\
 current_mileage - integer\
 service_interval - integer\
-next_service - date\
+next_service - date
 
 ![Screenshot 2021-03-08 000609](https://user-images.githubusercontent.com/26910936/110295464-fdd72980-7fa5-11eb-8fe2-c03cb05aefdd.png)
 
